@@ -17,10 +17,10 @@ a = int(input("element 1 value: "))
 b_des = input("element 2 description: ")
 b = int(input("element 2 value: "))
 c_des = input("element 3 description: ")
-if c_des > 0:
+if c_des != 0:
     c = int(input("lement 3 value: "))
 d_des = input("element 4 description: ")
-if d > 0:
+if d != 0:
     d = int(input("element 4 value: "))
     
 total = a + b + c + d
